@@ -1,0 +1,143 @@
+/* styles.css */
+
+/* styles.css */
+
+/* styles.css */
+
+/* styles.css */
+
+/* styles.css */
+
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #d390abd8; /* Light blue background */
+    z-index: 0; /* Place behind content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    z-index: 1; /* Ensure content is above the background */
+    margin: auto;
+    max-width: 1100px;
+    width: 95%;
+}
+
+.birthday-message {
+    background-color: #e6bac0; /* Blanched Almond */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.birthday-message h1 {
+    color: #8d0914; /* Tomato color */
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.birthday-message p {
+    font-size: 1.rem;
+    margin: 10px 0;
+}
+
+.birthday-photo {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(147, 42, 42, 0.3);
+}
+
+audio {
+    margin-top: 20px;
+    border: none;
+}
+
+.background::before {
+    content: "❤️";
+    font-size: 10rem;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: rgba(226, 12, 12, 0.5); /* Pink color */
+    z-index: -1;
+}
+
+.background::after {
+    content: "💘";
+    font-size: 7rem;
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+    transform: translate(50%, 50%);
+    color: rgba(255, 105, 180, 0.5); /* Light pink color */
+    z-index: -1;
+}
+
+/* Additional Emojis */
+.background .emoji1 {
+    content: "🎉"; /* Party Popper */
+    font-size: 8rem;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    color: rgba(255, 215, 0, 0.6); /* Gold color */
+    transform: translate(50%, -50%);
+    z-index: -1;
+}
+
+.background .emoji2 {
+    content: "🎂"; /* Birthday Cake */
+    font-size: 8rem;
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+    color: rgba(255, 182, 193, 0.6); /* Light pink color */
+    transform: translate(-50%, 50%);
+    z-index: -1;
+}
+
+.background .emoji3 {
+    content: "🥳"; /* Partying Face */
+    font-size: 8rem;
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+    color: rgba(255, 99, 71, 0.6); /* Tomato color */
+    transform: translate(50%, 50%);
+    z-index: -1;
+}
+
+
+.emoji4, .emoji5{
+    position: absolute;
+    z-index: 100;
+    right: 10px;
+}
+.emoji5{
+    position: absolute;
+    z-index: 100;
+    right: 33px;
+}
